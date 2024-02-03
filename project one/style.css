@@ -1,0 +1,125 @@
+:root{
+    --red: #FF004D;
+    --yellow: #FAEF5D;
+    --white: #FFF6E9;
+
+}
+
+
+
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.landing{
+    background-image: url(pexels-elevate-1267320.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: var(--white);
+}
+header a{
+    text-decoration: none;
+    color: var(--red);
+}
+nav{
+    flex: 2;
+    display: flex;
+    
+}
+nav a{
+    flex: 1;
+
+}
+header{
+    display: flex;
+    padding: 1em;
+}
+#logo{
+    flex: 6;
+}
+nav a:hover{
+    color: greenyellow;
+
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    padding: 2em;
+}
+.maintext div{
+    margin-top: 1em;
+}
+.maintext button{
+    height: 30px;
+    width: 150px;
+    margin-top: 2em;
+    border-radius: 5px;
+    background-color: gray;
+    color: var(--white);
+    align-self: center;
+    
+}
+h1{
+    color: black;
+    width: 10%;
+    position: relative;
+    top: 1em;
+    left: 2em;
+
+}
+.tagline1{
+    color: var(--red);
+    font-size: 2.5em;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.tagline2{
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+}
+.tagline3{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    background: linear-gradient(to right,rgb(255, 113, 113),rgb(98, 48, 48));
+}
+#menuheading{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right,rgb(255, 113, 113),rgb(98, 48, 48));;
+    margin: 0;
+    padding: 1em;
+    
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu th{
+    justify-content: center;
+    color: #4f523a;
+    align-self: center;
+    text-align: center;
+
+}
+.menu tr{
+    display: flex;
+    margin-top: .8em;
+}
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
